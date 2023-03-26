@@ -5,7 +5,7 @@ export const Container = styled.section`
 `
 
 export const Title = styled.span`
-  margin-bottom: ${(props) => props.theme.spacing.md};
+  padding-bottom: ${(props) => props.theme.spacing.md};
 
   &:before {
     content: '/';

@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
-const DOMAIN = 'https://fechenbach.atslega-media.de'
-const siteName = 'Felix Fechenbach'
+const DOMAIN = 'https://atslega.dev'
+const siteName = 'Max Atslega'
 const ogType = 'website'
 
 interface Props {
@@ -9,7 +9,8 @@ interface Props {
 }
 
 export default function SEO({ title }: Props) {
-  const description = 'Digitale Ausstellung über das Leben von Felix Fechenbach'
+  const description =
+    'Here you can find examples of my work, skills, and experiences as a developer. I am passionate about building cool digital stuff and am always looking for new challenges and opportunities.'
   const canonical = DOMAIN
 
   return (
@@ -39,8 +40,8 @@ export default function SEO({ title }: Props) {
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       <link rel="manifest" href="/site.webmanifest" />
       <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-      <meta name="apple-mobile-web-app-title" content="Felix Fechenbach" />
-      <meta name="application-name" content="Felix Fechenbach" />
+      <meta name="apple-mobile-web-app-title" content={siteName} />
+      <meta name="application-name" content={siteName} />
       <meta name="msapplication-TileColor" content="#00aba9" />
       <meta name="theme-color" content="#ffffff" />
     </Head>
