@@ -16,10 +16,10 @@ export default function Home() {
           interest in web and backend development.
         </p>
         <p>
-          I have experience with various web technologies such as HTML, CSS, JavaScript, React, Node.js, Java and Rust.
-          I have also worked with different backend frameworks to build RESTful APIs and web applications. In addition
-          to my technical skills, I have also developed strong problem-solving and teamwork abilities, which I believe
-          are essential in the field of software development. In my free time, I enjoy working on personal projects and
+          I have experience with various technologies such as JavaScript, TypeScript, React, Node.js, Java and Rust. I
+          have also worked with different backend frameworks to build RESTful APIs and web applications. In addition to
+          my technical skills, I have also developed strong problem-solving and teamwork abilities, which I believe are
+          essential in the field of software development. In my free time, I enjoy working on personal projects and
           expanding my skill set. I am currently learning about machine learning and data analysis, and am excited to
           apply these skills to real-world projects.
         </p>
