@@ -6,29 +6,44 @@ export const Container = styled.div`
   justify-content: space-between;
   width: 100%;
   position: relative;
+  cursor: pointer;
 
   padding-bottom: ${({ theme }) => theme.spacing.custom(2)};
+
+  ${(props) => props.theme.media.lg} {
+    justify-content: left;
+    flex-direction: column;
+  }
 `
 
 export const ImageContainer = styled(Image)`
   width: 35%;
   height: auto;
-  filter: grayscale(1);
   cursor: pointer;
 
-  &:hover {
-    filter: grayscale(0);
+  ${(props) => props.theme.media.lg} {
+    width: 100%;
+    padding-bottom: ${({ theme }) => theme.spacing.custom(2)};
   }
 `
 
 export const Content = styled.div`
   width: 65%;
   margin-left: ${({ theme }) => theme.spacing.custom(2)};
+
+  ${(props) => props.theme.media.lg} {
+    margin: 0;
+    width: 100%;
+  }
 `
 
 export const Title = styled.span`
   font-size: ${({ theme }) => theme.fontSizes.lg};
   font-weight: bold;
+
+  ${(props) => props.theme.media.xs} {
+    font-size: ${({ theme }) => theme.fontSizes.md};
+  }
 `
 
 export const Tags = styled.ul`
@@ -38,6 +53,7 @@ export const Tags = styled.ul`
   margin: 0;
   padding: 0;
   list-style: none;
+  flex-wrap: wrap;
 `
 
 export const Tag = styled.li`
@@ -47,11 +63,13 @@ export const Tag = styled.li`
   margin-right: ${(props) => props.theme.spacing.sm};
   padding: 5px 10px;
   border-radius: 10px;
+  margin-bottom: ${(props) => props.theme.spacing.sm};
 `
 
 export const TagIcon = styled.li`
   font-size: ${({ theme }) => theme.fontSizes.md};
   margin-right: ${(props) => props.theme.spacing.sm};
+  margin-bottom: ${(props) => props.theme.spacing.sm};
 `
 
 export const Header = styled.div`

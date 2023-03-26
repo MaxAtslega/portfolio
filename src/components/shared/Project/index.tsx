@@ -10,6 +10,7 @@ import {
 } from '@/components/shared/Project/project.styles'
 import { AiFillTag } from 'react-icons/ai'
 import { BsGithub } from 'react-icons/bs'
+import { useRouter } from 'next/router'
 
 interface Props {
   title: string
@@ -19,9 +20,11 @@ interface Props {
   image: any
 }
 
-const Project: React.FC<Props> = ({ title, description, tags, image }: Props) => {
+const Project: React.FC<Props> = ({ title, description, tags, image, url }: Props) => {
+  const router = useRouter()
+
   return (
-    <Container>
+    <Container onClick={() => router.push(url)}>
       <ImageContainer width={600} height={300} src={image} alt={'Image'} />
       <Content>
         <Header>

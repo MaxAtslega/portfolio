@@ -13,7 +13,7 @@ export const Content = styled.div`
   display: flex;
   justify-content: space-between;
 
-  @media (max-width: 780px) {
+  ${(props) => props.theme.media.md} {
     align-items: center;
     flex-direction: column;
     text-align: center;
@@ -31,11 +31,11 @@ export const Nav = styled.nav`
     padding-left: 1rem;
   }
 
-  @media (max-width: 780px) {
+  ${(props) => props.theme.media.md} {
     padding-bottom: 1rem;
   }
 
-  @media (max-width: 316px) {
+  ${(props) => props.theme.media.xs} {
     li {
       width: 100%;
     }

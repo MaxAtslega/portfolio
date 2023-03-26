@@ -34,7 +34,7 @@ export default function Home() {
       <Section id={'projects'} title={'Projects'}>
         <p>
           These are some of my projects, you can find all of them on my{' '}
-          <NLink style={{ textDecoration: 'underline dotted' }} href={'https.//atslega.dev/github'}>
+          <NLink style={{ textDecoration: 'underline dotted' }} href={'https://atslega.dev/github'}>
             GitHub
           </NLink>
           .

@@ -27,7 +27,7 @@ const Technologies: React.FC = () => {
           )
         })}
       </TechContainer>
-      <p>More</p>
+      <p>Others...and more</p>
       <TechContainer>
         {technologies.more.map((technologie, index) => {
           return (
