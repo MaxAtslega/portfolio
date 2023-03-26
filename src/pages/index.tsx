@@ -13,16 +13,15 @@ export default function Home() {
         <p>
           My name is Max Atslega and I am a student from Germany with a passion for building cool digital stuff. Since I
           was 11 years old, I have been fascinated by the world of programming and technology, and have a particular
-          interest in web development and backend development.
+          interest in web and backend development.
         </p>
         <p>
-          I have focused on developing my skills in web development and backend development. I have experience with
-          various web technologies such as HTML, CSS, JavaScript, React, Node.js, Java and Rust. I have also worked with
-          different backend frameworks to build RESTful APIs and web applications. In addition to my technical skills, I
-          have also developed strong problem-solving and teamwork abilities, which I believe are essential in the field
-          of software development. In my free time, I enjoy working on personal projects and expanding my skill set. I
-          am currently learning about machine learning and data analysis, and am excited to apply these skills to
-          real-world projects.
+          I have experience with various web technologies such as HTML, CSS, JavaScript, React, Node.js, Java and Rust.
+          I have also worked with different backend frameworks to build RESTful APIs and web applications. In addition
+          to my technical skills, I have also developed strong problem-solving and teamwork abilities, which I believe
+          are essential in the field of software development. In my free time, I enjoy working on personal projects and
+          expanding my skill set. I am currently learning about machine learning and data analysis, and am excited to
+          apply these skills to real-world projects.
         </p>
         <p>
           I am eager to continue learning and growing as a developer, and am always looking for new opportunities to
