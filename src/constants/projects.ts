@@ -22,7 +22,7 @@ export const projects = [
   {
     title: 'MaxAtslega/MuehleAltrogge',
     description:
-      'The "MuehleAltrogge" project was created during my secondary school years as part of my coursework. The aim of the project was to create a website to report on the Altrogge Mill and document its history and significance for the region. The "MuehleAltrogge" project not only helped to improve my web development skills but also helped to raise awareness of the mill and its history in the region.',
+      'The "MuehleAltrogge" project was created during my secondary school years as part of my coursework. My aim of the project was to create a website to report on the Altrogge Mill and document its history and significance for the region. The project not only helped to improve my web development skills but also helped to raise awareness of the mill and its history in the region.',
     tags: ['Gatsby', 'React', 'Material-UI'],
     url: 'https://github.com/MaxAtslega/MuehleAltrogge',
     image: altroggeImage,
