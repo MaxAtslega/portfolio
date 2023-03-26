@@ -4,6 +4,7 @@ import { Container, Title } from '@/components/pages/root/Section/section.styles
 interface Props {
   children: ReactNode
   id: string
+  title: string
 }
 
 const Section: React.FC<Props> = ({ children, id, title }: Props) => {
