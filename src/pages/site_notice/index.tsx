@@ -1,8 +1,9 @@
 import { NextPage } from 'next'
+import { Container } from '@/components/shared/Container'
 
 const SiteNotice: NextPage = () => {
   return (
-    <>
+    <Container>
       <h1>Site Notice</h1>
       <h2>Information pursuant to Sect. 5 German Telemedia Act (TMG)</h2>
       <p>
@@ -19,7 +20,7 @@ const SiteNotice: NextPage = () => {
         <br />
         E-mail: hello@atslega.dev
       </p>
-    </>
+    </Container>
   )
 }
 

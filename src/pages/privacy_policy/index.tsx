@@ -1,8 +1,9 @@
 import { NextPage } from 'next'
+import { Container } from '@/components/shared/Container'
 
 const PrivacyPolicy: NextPage = () => {
   return (
-    <>
+    <Container>
       <h1>Privacy Policy</h1>
       <h2>1. An overview of data protection</h2>
       <h3>General information</h3>
@@ -290,7 +291,7 @@ const PrivacyPolicy: NextPage = () => {
         We use Jitsi Meet. When you communicate with us via Jitsi Meet, all the data related to this communication
         activity will be processed exclusively on our servers (On Premise).
       </p>
-    </>
+    </Container>
   )
 }
 
