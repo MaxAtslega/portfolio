@@ -1,0 +1,30 @@
+name: Build
+
+on: [pull_request]
+
+jobs:
+  install-dependencies:
+    runs-on: ubuntu-latest
+    name: Install Dependencies
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: 'yarn'
+      - uses: bahmutov/npm-install@v1.8.29
+        with: { useRollingCache: true } # recommended for large projects
+        env:
+          CYPRESS_INSTALL_BINARY: 0
+  lint:
+    needs: [install-dependencies]
+    name: Run Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: bahmutov/npm-install@v1.8.29
+        with: { useRollingCache: true }
+        env:
+          CYPRESS_INSTALL_BINARY: 0
+      - name: lint
+        run: yarn lint

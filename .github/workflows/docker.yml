@@ -1,0 +1,27 @@
+name: Publish
+
+on:
+  push:
+    branches:
+      - "**"             # all branches
+      - "!dependabot/**"      # exclude dependbot branches
+jobs:
+  docker-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Login to Atslega Private Container Registry
+        uses: docker/login-action@v2
+        with:
+          registry: pcr.atslega.network
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+      - name: Build and Push Docker Images
+        run: |
+          export CURRENT_BRANCH=${GITHUB_REF#refs/heads/}
+          export TAG=$([[ $CURRENT_BRANCH == "main" ]] && echo "latest" || echo $CURRENT_BRANCH)
+          export GITHUB_BRANCH_IMAGE=pcr.atslega.network/portfolio:$TAG
+          docker build -t $GITHUB_BRANCH_IMAGE .
+          echo "Pushing Image to GitHub Container Registry"
+          docker push $GITHUB_BRANCH_IMAGE

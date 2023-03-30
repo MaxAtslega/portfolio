@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
+  output: 'standalone',
+  swcMinify: true,
+  compiler: {
+    styledComponents: { ssr: true, displayName: false },
   },
 }
 
