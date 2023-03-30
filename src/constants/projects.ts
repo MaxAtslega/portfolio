@@ -7,7 +7,7 @@ export const projects = [
     title: 'MaxAtslega/felix-fechenbach',
     description:
       'During my time in high school, I created the Felix Fechenbach website as a digital project. The website focuses on the life and work of Felix Fechenbach and provides insight into his ideals and values, which are still relevant today. Through the creation of the Felix Fechenbach website, I was able to acquire many new skills, including technical, creative, and communicative skills. In particular, I was able to improve my design skills by focusing on the layout and design of the website. During the presentation of the website and the tour, I received valuable feedback that helped me improve my communication skills.',
-    tags: ['React', 'NextJs', 'Styled-Components'],
+    tags: ['React', 'NextJs', 'Styled-Components', 'NetlifyCMS'],
     url: 'https://github.com/MaxAtslega/felix-fechenbach',
     image: felixfechenbachImage,
   },

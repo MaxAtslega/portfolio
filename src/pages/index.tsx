@@ -4,6 +4,7 @@ import { NLink } from '@/components/shared/Nav/Nav.styles'
 import Project from '@/components/shared/Project'
 import Technologies from '@/components/pages/root/Technologies'
 import { projects } from '@/constants/projects'
+import social from '@/constants/soical'
 
 export default function Home() {
   return (
@@ -17,16 +18,15 @@ export default function Home() {
         </p>
         <p>
           I have experience with various technologies such as JavaScript, TypeScript, React, Node.js, Java and Rust. I
-          have also worked with different backend frameworks to build RESTful APIs and web applications. In addition to
-          my technical skills, I have also developed strong problem-solving and teamwork abilities, which I believe are
+          have also worked with different frameworks to build RESTful APIs and web applications. In addition to my
+          technical skills, I have also developed strong problem-solving and teamwork abilities, which I believe are
           essential in the field of software development. In my free time, I enjoy working on personal projects and
           expanding my skill set. I am currently learning about machine learning and data analysis, and am excited to
           apply these skills to real-world projects.
         </p>
         <p>
           I am eager to continue learning and growing as a developer, and am always looking for new opportunities to
-          challenge myself and contribute to meaningful projects. If you would like to get in touch with me, feel free
-          to contact me.
+          challenge myself and contribute to meaningful projects.
         </p>
       </Section>
 
@@ -57,11 +57,11 @@ export default function Home() {
       <Section id={'contact'} title={'Get in touch'}>
         <p>
           I am available to connect on{' '}
-          <NLink style={{ textDecoration: 'underline dotted' }} href={'https://atslega.dev/linkedin'}>
+          <NLink style={{ textDecoration: 'underline dotted' }} href={social.linkedin}>
             LinkedIn
           </NLink>{' '}
           and{' '}
-          <NLink style={{ textDecoration: 'underline dotted' }} href={'https://atslega.dev/twitter'}>
+          <NLink style={{ textDecoration: 'underline dotted' }} href={social.twitter}>
             Twitter
           </NLink>
           , or you can reach me directly by email at{' '}

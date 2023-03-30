@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
-export const Container = styled.section`
-  padding-bottom: ${(props) => props.theme.spacing.custom(3)};
+export const SectionContainer = styled.section`
+  padding-bottom: ${(props) => props.theme.spacing.custom(1)};
 `
 
 export const Title = styled.span`

@@ -13,6 +13,7 @@ import { GrMail } from 'react-icons/gr'
 import React, { useState } from 'react'
 import { HiMenu } from 'react-icons/hi'
 import { useRouter } from 'next/router'
+import social from '@/constants/soical'
 
 const Nav: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -36,13 +37,13 @@ const Nav: React.FC = () => {
           </MobileMenuContainer>
           <NavList style={menuOpen ? { left: 0 } : { left: '-70%' }}>
             <NavItem>
-              <NLink href={'https://atslega.dev/twitch'}>Twitch</NLink>
+              <NLink href={social.twitch}>Twitch</NLink>
             </NavItem>
             <NavItem>
-              <NLink href={'https://atslega.dev/discord'}>Discord</NLink>
+              <NLink href={social.discord}>Discord</NLink>
             </NavItem>
             <NavItem>
-              <NLink href={'https://atslega.dev/github'}>GitHub</NLink>
+              <NLink href={social.github}>GitHub</NLink>
             </NavItem>
           </NavList>
         </Content>

@@ -1,5 +1,4 @@
 import Nav from '@/components/shared/Nav'
-import { Container } from '@/components/shared/Container'
 import { Roboto } from 'next/font/google'
 import Footer from '@/components/shared/Footer'
 import { ReactNode } from 'react'
@@ -13,9 +12,7 @@ export default function Layout({ children }: { children: ReactNode }) {
   return (
     <div className={roboto.className}>
       <Nav />
-      <main>
-        <Container>{children}</Container>
-      </main>
+      <main>{children}</main>
       <Footer />
     </div>
   )

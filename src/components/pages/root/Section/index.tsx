@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react'
-import { Container, Title } from '@/components/pages/root/Section/section.styles'
+import { SectionContainer, Title } from '@/components/pages/root/Section/section.styles'
+import { Container } from '@/components/shared/Container'
 
 interface Props {
   children: ReactNode
@@ -9,10 +10,12 @@ interface Props {
 
 const Section: React.FC<Props> = ({ children, id, title }: Props) => {
   return (
-    <Container id={id}>
-      <Title>{title}</Title>
-      {children}
-    </Container>
+    <SectionContainer id={id}>
+      <Container>
+        <Title>{title}</Title>
+        {children}
+      </Container>
+    </SectionContainer>
   )
 }
 

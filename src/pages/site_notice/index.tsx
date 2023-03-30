@@ -17,7 +17,7 @@ const SiteNotice: NextPage = () => {
       <p>
         Phone: 05232 9287212
         <br />
-        E-mail: contact@atslega.network
+        E-mail: hello@atslega.dev
       </p>
     </>
   )
