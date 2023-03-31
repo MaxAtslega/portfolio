@@ -6,7 +6,6 @@ import {
   SiExpress,
   SiFlutter,
   SiGatsby,
-  SiGithubpages,
   SiGo,
   SiHtml5,
   SiJavascript,
