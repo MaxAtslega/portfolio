@@ -168,11 +168,6 @@ export const technologies = {
   ],
   more: [
     {
-      title: 'GitHub Pages',
-      color: '#181717',
-      icon: <SiGithubpages />,
-    },
-    {
       title: 'MongoDB',
       color: '#47A248',
       icon: <SiMongodb />,

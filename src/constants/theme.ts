@@ -30,8 +30,8 @@ const colors = {
   white: '#fff',
 
   background: {
-    default: '#181818',
-    light: '#383838',
+    default: '#151515',
+    light: '#1B1B1B',
   },
 }
 
