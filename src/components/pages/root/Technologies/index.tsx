@@ -16,7 +16,7 @@ const Technologies: React.FC = () => {
           )
         })}
       </TechContainer>
-      <p>Programming languages</p>
+      <p>Languages</p>
       <TechContainer>
         {technologies.languages.map((technologie, index) => {
           return (
