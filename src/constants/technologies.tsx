@@ -17,7 +17,6 @@ import {
   SiNextdotjs,
   SiNodedotjs,
   SiNotion,
-  SiOracle,
   SiPhp,
   SiPostgresql,
   SiPowershell,
@@ -32,6 +31,7 @@ import {
   SiVercel,
   SiVmware,
   SiVuedotjs,
+  SiRedis,
 } from 'react-icons/si'
 import { DiJava } from 'react-icons/di'
 
@@ -182,9 +182,9 @@ export const technologies = {
       icon: <SiNotion />,
     },
     {
-      title: 'Oracle',
-      color: '#F80000',
-      icon: <SiOracle />,
+      title: 'Redis',
+      color: '#DC382D',
+      icon: <SiRedis />,
     },
     {
       title: 'VMware',
