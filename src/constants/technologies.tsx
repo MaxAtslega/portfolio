@@ -68,6 +68,11 @@ export const technologies = {
       icon: <SiMaterialdesign />,
     },
     {
+      title: 'Node.js',
+      color: '#339933',
+      icon: <SiNodedotjs />,
+    },
+    {
       title: 'Vue.js',
       color: '#4FC08D',
       icon: <SiVuedotjs />,
@@ -113,11 +118,6 @@ export const technologies = {
       title: 'Markdown',
       color: '#000000',
       icon: <SiMarkdown />,
-    },
-    {
-      title: 'Node.js',
-      color: '#339933',
-      icon: <SiNodedotjs />,
     },
     {
       title: 'PHP',
