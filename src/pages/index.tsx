@@ -12,21 +12,13 @@ export default function Home() {
       <Hero />
       <Section id={'about_me'} title={'About me'}>
         <p>
-          My name is Max Atslega and I am a student from Germany with a passion for building cool digital stuff. Since I
-          was 11 years old, I have been fascinated by the world of programming and technology, and have a particular
-          interest in web and backend development.
+          My name is Max Atslega, and I am a student from Germany with a passion for building cool digital stuff.
         </p>
         <p>
-          I have experience with various technologies such as JavaScript, TypeScript, React, Node.js, Java and Rust. I
-          have also worked with different frameworks to build RESTful APIs and web applications. In addition to my
-          technical skills, I have also developed strong problem-solving and teamwork abilities, which I believe are
-          essential in the field of software development. In my free time, I enjoy working on personal projects and
-          expanding my skill set. I am currently learning about machine learning and data analysis, and am excited to
-          apply these skills to real-world projects.
+          I have experience with various technologies such as TypeScript, GoLang, React, Node.js, Java, and Rust, with a strong interest in low-level programming and operating system design. In my free time, I enjoy working on personal projects and expanding my skill set. I am excited to apply these skills to real-world projects.
         </p>
         <p>
-          I am eager to continue learning and growing as a developer, and am always looking for new opportunities to
-          challenge myself and contribute to meaningful projects.
+          I actively contribute to open-source projects and enjoy working in a team. Through my cultural experiences, I have learned a variety of things that have helped me grow both personally and professionally. I am eager to continue learning and growing as a developer and am constantly looking for new opportunities to challenge myself and contribute to meaningful projects.
         </p>
       </Section>
 
@@ -60,10 +52,6 @@ export default function Home() {
           <NLink style={{ textDecoration: 'underline dotted' }} href={social.linkedin}>
             LinkedIn
           </NLink>{' '}
-          and{' '}
-          <NLink style={{ textDecoration: 'underline dotted' }} href={social.twitter}>
-            Twitter
-          </NLink>
           , or you can reach me directly by email at{' '}
           <NLink style={{ textDecoration: 'underline dotted' }} href={'mailto:hello@atslega.dev'}>
             hello@atslega.dev

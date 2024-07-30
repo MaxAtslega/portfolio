@@ -3,7 +3,7 @@ const nextConfig = {
   output: 'standalone',
   swcMinify: true,
   compiler: {
-    styledComponents: { ssr: true, displayName: false },
+    styledComponents: true,
   },
 }
 

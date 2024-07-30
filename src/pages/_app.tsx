@@ -5,15 +5,18 @@ import GlobalStyle from '@/styles/globalStyles'
 import { theme } from '@/constants/theme'
 import { ThemeProvider } from 'styled-components'
 import Layout from '@/components/Layout'
+import StyledComponentsRegistry from '@/lib/registry'
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <ThemeProvider theme={theme}>
-      <GlobalStyle />
-      <SEO title="Start" />
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
-    </ThemeProvider>
+    <StyledComponentsRegistry>
+      <ThemeProvider theme={theme}>
+        <GlobalStyle />
+        <SEO title="Start" />
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </ThemeProvider>
+    </StyledComponentsRegistry>
   )
 }
