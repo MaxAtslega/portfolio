@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import { HeroContainer, Content, ImageContainer, SubTitle, Title } from '@/components/pages/root/Hero/hero.styles'
 import Picture from '@/assets/images/picture.jpg'

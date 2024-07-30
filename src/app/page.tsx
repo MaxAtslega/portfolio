@@ -1,3 +1,5 @@
+'use client'
+
 import Hero from '@/components/pages/root/Hero'
 import Section from '@/components/pages/root/Section'
 import { NLink } from '@/components/shared/Nav/Nav.styles'

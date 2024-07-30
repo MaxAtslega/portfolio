@@ -1,3 +1,5 @@
+'use client'
+
 import Nav from '@/components/shared/Nav'
 import { Roboto } from 'next/font/google'
 import Footer from '@/components/shared/Footer'
@@ -10,10 +12,10 @@ const roboto = Roboto({
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <div className={roboto.className}>
+    <body className={roboto.className}>
       <Nav />
       <main>{children}</main>
       <Footer />
-    </div>
+    </body>
   )
 }

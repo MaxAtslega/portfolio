@@ -1,3 +1,5 @@
+'use client'
+
 import {
   Container,
   ImageContainer,
@@ -10,7 +12,7 @@ import {
 } from '@/components/shared/Project/project.styles'
 import { AiFillTag } from 'react-icons/ai'
 import { BsGithub } from 'react-icons/bs'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 
 interface Props {
   title: string

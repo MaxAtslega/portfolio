@@ -1,3 +1,5 @@
+'use client'
+
 import { Container } from '@/components/shared/Container'
 import {
   Content,
@@ -12,7 +14,7 @@ import {
 import { GrMail } from 'react-icons/gr'
 import React, { useState } from 'react'
 import { HiMenu } from 'react-icons/hi'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 import social from '@/constants/soical'
 
 const Nav: React.FC = () => {

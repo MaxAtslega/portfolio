@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import { TechContainer, CardContainer, Container } from '@/components/pages/root/Technologies/technologies.styles'
 import { technologies } from '@/constants/technologies'

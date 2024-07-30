@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import { FooterContainer, Content, Nav } from '@/components/shared/Footer/footer.styles'
 import { Container } from '@/components/shared/Container'
@@ -19,7 +21,7 @@ const Footer = () => {
             </ul>
           </Nav>
           <span>
-            Copyright © 2023 <NLink href={'https://atslega-media.de'}>AtslegaMedia</NLink>
+            Copyright © 2024 <NLink href={'https://atslega.dev'}>Max Atslega</NLink>
           </span>
         </Content>
       </Container>

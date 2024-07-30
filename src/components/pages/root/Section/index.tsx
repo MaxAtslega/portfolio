@@ -1,3 +1,5 @@
+'use client'
+
 import React, { ReactNode } from 'react'
 import { SectionContainer, Title } from '@/components/pages/root/Section/section.styles'
 import { Container } from '@/components/shared/Container'
